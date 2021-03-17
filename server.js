@@ -6,7 +6,9 @@ const bot = new dbd.Bot({
   prefix: "&"
 });
 
-bot.onMessage();
+bot.onMessage()
+bot.onJoined()
+bot.onleave()
 
 const fs = require("fs");
 
