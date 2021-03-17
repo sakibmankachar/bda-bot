@@ -1,10 +1,10 @@
 module.exports.command = {
   name: "1",
-  nonPrefix: true,
+  nonPrefixed: true,
 
   code: `
 
-$onlyForChannels[821636197402804244]
+$onlyForChannels[821636197402804244;]
 
 $dm
 
