@@ -60,7 +60,7 @@ handler: while (i < dir.length) {
 bot.joinCommand({
   //command
 
-  channel: "channeldid", //channel where it will log
+  channel: "821686049839251466", //channel where it will log
 
   code: ` $giveRoles[$authorID;roleid]
 
