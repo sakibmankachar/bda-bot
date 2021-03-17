@@ -6,9 +6,8 @@ const bot = new dbd.Bot({
   prefix: "&"
 });
 
-bot.onMessage()
-bot.onJoined()
-bot.onleave()
+bot.onMessage();
+bot.onJoined();
 
 const fs = require("fs");
 
@@ -57,3 +56,13 @@ handler: while (i < dir.length) {
     continue handler;
   }
 }
+
+bot.joinCommand({
+  //command
+
+  channel: "channeldid", //channel where it will log
+
+  code: ` $giveRoles[$authorID;roleid]
+
+        $onlyIf[$isBot[$authorID]==true;]` //Message sent to <channel>
+});
