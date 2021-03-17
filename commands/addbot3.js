@@ -7,7 +7,7 @@ module.exports.command = {
 
 $textSplit[$sendMessage[{title: addbot} {description: $userTag wants to add a bot called $userTag[$findUser[$message[1]]] you can invite it by clicking [here\\](https://discord.com/oauth2/authorize?client_id=$getMessageVar[clinetid;$messageID]&scope=bot&permissions=0&guild_id=$guildID)} {color:RANDOM}
 
-{field: Bot id: $message[1]:yes} {field:**Prefix:** $message[2]:yes} {field: **User id:** $authorID:yes} {footer: WARNING! Do not delete users message if it is the whole proccess is cancelled!};yes]; ]
+{field: Bot id: $message[1]:yes} {field:**Prefix:** $message[2]:yes} {field: User ID: $authorID:yes} {footer: WARNING! Do not delete Users message if it is the whole proccess is cancelled!};yes]; ]
 
 $setMessageVar[userid;$authorID;$messageID]
 
