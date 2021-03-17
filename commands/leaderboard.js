@@ -1,7 +1,7 @@
 module.exports.command = {
   name: "leaderboard",
 
-  code: `$dec
+  code: `$description]
 
-$userLeaderboard[money;asc;{top} - {username} - {value}]`
+$userLeaderboard[money;desc;{top} - {username} - {value}]]`
 };
