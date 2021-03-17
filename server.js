@@ -62,7 +62,7 @@ bot.joinCommand({
 
   channel: "821686049839251466", //channel where it will log
 
-  code: ` $giveRoles[$authorID;roleid]
+  code: ` $giveRoles[$authorID;821720387066396672]
 
         $onlyIf[$isBot[$authorID]==true;]` //Message sent to <channel>
 });
