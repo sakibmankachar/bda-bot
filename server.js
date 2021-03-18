@@ -66,3 +66,9 @@ bot.joinCommand({
 
         $onlyIf[$isBot[$authorID]==true;]` //Message sent to <channel>
 });
+
+bot.command({
+  name: "leaderboard",
+
+  code: `$userLeaderboard[bal;desc;{top} - {username} - {value}]`
+});
