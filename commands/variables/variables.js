@@ -6,6 +6,8 @@ module.exports.variables = {
   prefixadd: "",
 
   used: "0",
-  
+
   vote: "0",
+
+  custom: "off"
 };
