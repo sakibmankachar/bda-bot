@@ -14,11 +14,11 @@ $description[
 
 Hi $username, To Submit a Bot go in <#821636076921159692> and type there
 
-&addbot <botid(clientid)> <botprefix>
+\`&addbot <botid(clientid)> <botprefix>\`
 
-Replace <botid(clientid)> with your bot ID or your bot client ID.
+Replace \`<botid(clientid)>\` with your bot ID or your bot client ID.
 
-Replace botprefix with your bot prefix. ]
+Replace \`<botprefix>\` with your bot prefix. ]
 
-$deletecommand`
+`
 };
