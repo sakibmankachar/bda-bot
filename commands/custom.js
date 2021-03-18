@@ -13,11 +13,11 @@ Successfully Created a Channel For You and your bot!
 
 $sendDM[$authorID;Successfully Created a Channel for You!]
 
-$createChannel[$authorID;text]
+$createChannel[$authorID;text;821581152838090752]
 
-$modifyChannelPerms[$channelID;+viewchannel;$authorID]
+$modifyChannelPerms[$findChannel[$authorID];+viewchannel;$authorID]
 
-$modifyChannelPerms[$channelID;-viewchannel;822068155357724672]
+$modifyChannelPerms[$findChannel[$authorID];-viewchannel;822068155357724672]
 
 $setUserVar[custom;on]
 
