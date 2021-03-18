@@ -19,7 +19,7 @@ $modifyChannelPerms[$channelID;-viewchannel;822068155357724672]
 
 $setUserVar[custom;on]
 
-$elseif[$getUserVar[custom]==]
+$elseif[$getUserVar[custom]]
 
 ✔️ You already had your Private Testing Channel!
 
