@@ -67,7 +67,7 @@ bot.joinCommand({
         $onlyIf[$isBot[$authorID]==true;]` //Message sent to <channel>
 });
 
-bot.JoinCommand({
+bot.joinCommand({
   channel: "822017499464859668",
 
   code: `
