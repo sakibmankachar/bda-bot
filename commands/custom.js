@@ -22,7 +22,7 @@ $setUserVar[custom;on]
 
 $onlyForChannels[821581152838090752;]
 
-$elseif[$getUserVar[custom]==on]
+$elseif[$getUserVar[custom]==]
 
 ✔️ You already had your Private Testing Channel!
 
