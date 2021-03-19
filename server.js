@@ -67,6 +67,15 @@ bot.joinCommand({
         $onlyIf[$isBot[$authorID]==true;]` //Message sent to <channel>
 });
 
+bot.JoinCommand({
+  channel: "822017499464859668",
+
+  code: `
+  $if[$isBot[$authorID]==false]
+  $giveroles[$authorID;822068155357724672]
+  $endif`
+});
+
 bot.command({
   name: "leaderboard",
 

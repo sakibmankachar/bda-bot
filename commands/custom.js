@@ -1,6 +1,6 @@
 module.exports.command = {
   name: "ctc",
-
+  nonPrefixed: true,
   code: `
 
 
@@ -22,7 +22,7 @@ $setUserVar[custom;on]
 
 $onlyForChannels[821581152838090752;]
 
-$elseif[$getUserVar[custom]==]
+$elseif[$getUserVar[custom]==on]
 
 ✔️ You already had your Private Testing Channel!
 
