@@ -3,7 +3,6 @@ module.exports.command = {
 
   code: `
 
-$onlyForChannels[822070833681661963;]
 
 $deleteCommand
 
@@ -20,6 +19,8 @@ $modifyChannelPerms[$findChannel[$authorID];+viewchannel;$authorID]
 $modifyChannelPerms[$findChannel[$authorID];-viewchannel;822068155357724672]
 
 $setUserVar[custom;on]
+
+$onlyForChannels[821581152838090752;]
 
 $elseif[$getUserVar[custom]==]
 

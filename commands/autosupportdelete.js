@@ -3,7 +3,7 @@ module.exports.command = {
 
   code: `
 
-$onlyForChannels[821636197402804244;]
+$deleteCommand
 
-$deleteCommand`
+$onlyForChannels[821636197402804244;]`
 };
