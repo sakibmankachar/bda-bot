@@ -1,5 +1,5 @@
 module.exports.command = {
-  name: "$alwaysExecute",
+  name: "ctc",
 
   code: `
 

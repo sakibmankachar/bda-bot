@@ -4,6 +4,8 @@ module.exports.command = {
   nonPrefixed: true,
 
   code: `
+  
+  $deleteCommand
 
 $onlyForChannels[821636197402804244;]
 
