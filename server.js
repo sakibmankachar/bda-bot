@@ -56,23 +56,14 @@ handler: while (i < dir.length) {
     continue handler;
   }
 }
-
-bot.joinCommand({
-  //command
-
-  channel: "821686049839251466", //channel where it will log
-
-  code: ` $giveRoles[$authorID;821720387066396672]
-
-        $onlyIf[$isBot[$authorID]==true;]` //Message sent to <channel>
-});
-
 bot.joinCommand({
   channel: "822017499464859668",
 
   code: `
-  $if[$isBot[$authorID]==false]
-  $giveroles[$authorID;822068155357724672]
+  $if[$isBot[$authorID]==true]
+  $giveroles[$authorID;824979581001662464]
+  $else
+  $giveroles[$authorID;709481601393885225],
   $endif`
 });
 

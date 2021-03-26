@@ -1,20 +1,19 @@
 module.exports.command = {
+  name: "addbot",
 
-name: "addbot",
-
-Code: `
+  Code: `
 
 $title[New Bot Added]
 
 $description[> User name: [$username[$authorID]#$discriminator[$authorID]]($authorAvatar?size=2048)
 
-> User ID: \`$authorID`
+> User ID: \`$authorID\`
 
 > Bot name: [$username[$noMentionMessage[1]]#$discriminator[$noMentionMessage[1]]]($userAvatar[$noMentionMessage[1]])
 
-> Bot ID: `$noMentionMessage[1]`
+> Bot ID: \`$noMentionMessage[1]\`
 
-> Prefix: `$noMentionMessage[2]`
+> Prefix: \`$noMentionMessage[2]\`
 
 > Invite Link
 
@@ -28,13 +27,11 @@ $onlyIf[$isNumber[$noMentionMessage[1]]!=false;That not a bot, please try again.
 
 $onlyIf[$isBot[$noMentionMessage[1]]!=false;That not a bot, please try again.]
 
-$argsCheck[2;Usage: `&addbot (BOT ID) (PREFIX)`]
+$argsCheck[2;Usage: \`&addbot (BOT ID) (PREFIX)\`]
 
-$suppressErrors[Usage: `&addbot (BOT ID) (PREFIX)`]
+$suppressErrors[Usage: \`&addbot (BOT ID) (PREFIX)\`]
 
 $channelSendMessage[821686049839251466;<@$authorID> Submitted a bot!]
 
 $onlyForChannels[821636076921159692;Go in <#821636076921159692> to use this command!]`
-
-}
-
+};
