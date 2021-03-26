@@ -61,7 +61,9 @@ bot.joinCommand({
 
   code: `
   $if[$isBot[$authorID]==true]
-  $giveroles[$authorID;]
+  $giveroles[$authorID;824979581001662464]
+  $else
+  $giveroles[$authorID;709481601393885225],
   $endif`
 });
 
