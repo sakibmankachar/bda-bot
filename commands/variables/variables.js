@@ -9,7 +9,5 @@ module.exports.variables = {
 
   vote: "0",
 
-  custom: "off",
-
-  roleid: ""
+  custom: "off"
 };
