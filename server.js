@@ -70,5 +70,5 @@ bot.joinCommand({
 bot.command({
   name: "leaderboard",
 
-  code: `$userLeaderboard[bal;desc;{top} - {username} - {value}]`
+  code: `$description[$userLeaderboard[bal;desc;{top} - {username} - {value}]]`
 });
