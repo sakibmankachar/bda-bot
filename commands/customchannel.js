@@ -15,7 +15,8 @@ $newTicket[$authorID;
 
 {title: Your Private Testing Channel!}
 
-{description:**&delete** It will delete This channel!}
+{description:**&delete** It will delete This channel!
+**&restrict** The one bot you mentioned will able to talk in this channel!}
 
 {footer:More Commands will be added in the Future!}
 
