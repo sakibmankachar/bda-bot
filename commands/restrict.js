@@ -3,7 +3,7 @@ module.exports.command = {
 
   code: `
   
-  $argsCheck[>1; Please Mention a bot!]
+  $argsCheck[>1;Please Mention a bot!]
 
 $onlyForChannels[$findChannel[$authorID];]
 
