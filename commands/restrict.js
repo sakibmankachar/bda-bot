@@ -2,6 +2,8 @@ module.exports.command = {
   name: "restrict",
 
   code: `
+  
+  $argsCheck[>1; Please Mention a bot!]
 
 $onlyForChannels[$findChannel[$authorID];]
 
