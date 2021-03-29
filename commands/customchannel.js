@@ -1,6 +1,6 @@
 module.exports.command = {
-  name: "$alwaysExecute",
-
+  name: "ctc",
+  nonPrefixed: true,
   code: `
 
 $onlyforChannels[822070833681661963;]
