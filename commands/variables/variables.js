@@ -1,4 +1,8 @@
 module.exports.variables = {
   vote: "0",
-  custom: "False"
+  custom: "False",
+  clinetid: "",
+  userid: "",
+  prefixadd: "",
+  used: "0"
 };
