@@ -3,9 +3,9 @@ module.exports.command = {
 
   code: `
 
-$onlyForChannels[$authorID;]
+$onlyForChannels[$findChannel[$authorID];]
 
-$deleteChannels[$authorID;]
+$deleteChannels[$findChannel$authorID];]
 
 $sendDM[$authorID;You have Successfully Deleted your Channel!]
 
