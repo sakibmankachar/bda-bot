@@ -23,7 +23,7 @@ $onlyIf[$memberExists[$message[1]]!=true; **Hey**! This bot is already here! you
 
 $suppressErrors[A extreme error just happened...]
 
-$onlyForChannels[channelwere it can be executed;Go to <#channelid> to do this...]
+$onlyForChannels[821636076921159692;Go to <#821636076921159692> to do this...]
 
 `
 };

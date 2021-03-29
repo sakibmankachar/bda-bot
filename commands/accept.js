@@ -1,7 +1,9 @@
 module.exports.awaitedCommand = {
   name: "accept",
 
-  code: `$changeNickname[$getMessageVar[clinetid;$messageID];$getMessageVar[prefixadd;$messageID] | $userName[$getMessageVar[clinetid;$messageID]]]
+  code: `$giveroles[821720387066396672;$getMessageVar[clinetid;$messageID]]
+  
+  $changeNickname[$getMessageVar[clinetid;$messageID];$getMessageVar[prefixadd;$messageID] | $userName[$getMessageVar[clinetid;$messageID]]]
 
 $sendDm[$getMessageVar[userid;$messageID]; Your bot has been Acepted in! ]
 
