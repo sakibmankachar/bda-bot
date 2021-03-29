@@ -5,6 +5,10 @@ module.exports.command = {
 
 $onlyforChannels[822070833681661963;]
 
+$modifyChannelPerms[$findChannel[$authorID];-viewchannel;$guildID]
+
+$modifyChannelPerms[$findChannel[$authorID];+viewchannel;821720387066396672]
+
 $if[$getUserVar[custom]==False]
 
 $newTicket[$authorID;
