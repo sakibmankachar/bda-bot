@@ -8,7 +8,7 @@ $modifyChannelPerms[$findChannel[$authorID];+viewchannel;821720387066396672]
 
 $if[$getUserVar[custom]==False]
 
-$newTicket[$authorID; <@$authorID>,
+$newTicket[$authorID; <@$authorID>
 
 {title: Your Private Testing Channel!}
 
@@ -40,9 +40,9 @@ $onlyForChannels[822070833681661963;]
 
 $elseif[$getServerVar[custom]==False]
 
-$description[❌You Already had a Private Testing Channel!
+$description[❌You Already had a Private Testing Channel!]
 
-Your Private Testing Channel is <]
+$deleteIn[5s]
 
 $deleteCommand
 
