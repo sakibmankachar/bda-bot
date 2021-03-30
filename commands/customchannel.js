@@ -24,7 +24,9 @@ Just Replace the \`copiedbotid\` with the bot ID you copied!)
 **&setnsfw** To set this Channel as NSFW Channel!
 (This is required if your bot has NSFW Commands and you want to use them!)
 
-**&unsetnsfw** To set this Channel as Non-nsfw channel! (only works if you already make this channel as NSFW channel!)}
+**&unsetnsfw** To set this Channel as Non-nsfw channel! (only works if you already make this channel as NSFW channel!)
+
+**&disable** To disable a bot to talk in this Channel!}
 
 {footer:More Commands will be added in the Future!}
 
