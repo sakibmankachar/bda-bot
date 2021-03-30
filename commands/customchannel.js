@@ -2,7 +2,9 @@ module.exports.command = {
   name: "ctc",
   nonPrefixed: true,
   code: `
-
+  
+  $deleteCommand
+  
 $onlyforChannels[822070833681661963;]
 
 $modifyChannelPerms[$findChannel[$authorID];-viewchannel;$guildID]
@@ -37,15 +39,11 @@ Just Replace the \`copiedbotid\` with the bot ID you copied!)
 
 $setUserVar[custom;True]
 
-$deleteCommand
-
 $elseif[$getServerVar[custom]==False]
 
 $description[❌You Already had a Private Testing Channel!
 
 Your Private Testing Channel is <#$authorID>]
-
-$deleteCommand
 
 $endelseif
 
