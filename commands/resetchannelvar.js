@@ -3,5 +3,5 @@ module.exports.command = {
   code: `
   $resetUserVar[custom]
   Successfully Reseted!
-  $onlyAdmin[Only Admin can run this command!]`
-  }
+  $onlyPerms[admin;Only Admin can run this command!]`
+};
