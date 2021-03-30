@@ -12,7 +12,7 @@ $newTicket[$authorID; <@$authorID>
 
 {title: Your Private Testing Channel!}
 
-{description:**&delete** It will delete This channel!
+{description:**&close** To close This channel!
 
 **&restrict** The one bot you mentioned will able to talk in this channel!
 
@@ -26,7 +26,9 @@ Just Replace the \`copiedbotid\` with the bot ID you copied!)
 
 **&unsetnsfw** To set this Channel as Non-nsfw channel! (only works if you already make this channel as NSFW channel!)
 
-**&disable** To disable a bot to talk in this Channel!}
+**&disable** To disable a bot to talk in this Channel!
+
+**&clear** To Clear 100 recent message from your Private Testing Channel!}
 
 {footer:More Commands will be added in the Future!}
 

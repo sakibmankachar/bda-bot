@@ -1,5 +1,5 @@
 module.exports.command = {
-  name: "delete",
+  name: "close",
 
   code: `
 
@@ -7,7 +7,7 @@ $onlyForChannels[$findChannel[$authorID];]
 
 $deleteChannels[$findChannel[$authorID];]
 
-$sendDM[$authorID;You have Successfully Deleted your Channel!]
+$sendDM[$authorID;You have Successfully closed your Channel!]
 
 $setUserVar[custom;False]`
 };
