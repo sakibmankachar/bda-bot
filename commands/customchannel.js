@@ -11,7 +11,7 @@ $modifyChannelPerms[$findChannel[$authorID];+viewchannel;821720387066396672]
 
 $if[$getUserVar[custom]==False]
 
-$newTicket[$authorID;
+$newTicket[$authorID; <@$authorID>,
 
 {title: Your Private Testing Channel!}
 
