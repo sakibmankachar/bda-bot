@@ -1,13 +1,9 @@
 module.exports.command = {
-  name: "$alwaysExecute",
+  name: "q2",
 
-  code: `$if[[$getServerVar[q]==2]
+  code: `
 
 2.What you will do if a bot gives NSFW content in non-nsfw channel?**Please Type Your Answer.**
-
-$setServerVar[q;3]
-
-$endif
 
 `
 };
