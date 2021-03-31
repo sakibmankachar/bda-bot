@@ -4,5 +4,6 @@ module.exports.variables = {
   clinetid: "",
   userid: "",
   prefixadd: "",
-  used: "0"
+  used: "0",
+  q: ""
 };
