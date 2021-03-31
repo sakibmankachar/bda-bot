@@ -1,7 +1,9 @@
 module.exports.command = {
   name: "application",
 
-  code: `$setServerVar[q;1]
+  code: `$onlyForChannels[826669077422538773;]
+  
+  $setServerVar[q;1]
 
 $onlyPerms[admin;Sorry You can't run this command]
 
