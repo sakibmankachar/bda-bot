@@ -2,6 +2,8 @@ module.exports.command = {
   name: "add",
   code: `
   
+ $onlyIf[$mentioned[1]!=; Please Mention the bot in this way \`&add <@botid>\`! 
+  
 $argsCheck[>1; Please Mention A bot!]
 
 $onlyForChannels[$findChannel[$authorID];]
