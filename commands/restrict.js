@@ -2,10 +2,7 @@ module.exports.command = {
   name: "restrict",
 
   code: `
-  
-  $argsCheck[>1;Pleas
-
-$onlyForChannels[$findChannel[$authorID];]
+  $onlyForChannels[$findChannel[$authorID];]
 
 $modifyChannelPerms[$findChannel[$authorID];-viewchannel;821720387066396672]
 
