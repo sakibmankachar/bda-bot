@@ -5,5 +5,7 @@ module.exports.variables = {
   userid: "",
   prefixadd: "",
   used: "0",
-  q: ""
+  q: "",
+  rr1: "",
+  prefix: "&"
 };
