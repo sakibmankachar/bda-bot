@@ -27,9 +27,7 @@ Like this \`&add <@821687874382331904>\`)
 
 **&unsetnsfw** To set this Channel as Non-nsfw channel! (only works if you already make this channel as NSFW channel!)
 
-**&disable** To disable a bot to talk in this Channel!
-
-**&clear** To Clear 100 recent message from your Private Testing Channel!}
+**&disable** To disable a bot to talk in this Channel!}
 
 {footer:More Commands will be added in the Future!}
 
