@@ -5,7 +5,7 @@ module.exports.command = {
 
 $onlyForChannels[$findChannel[$authorID];]
 
-$deleteChannels[$findChannel[$authorID];]
+$deleteChannels[$findChannel[$authorID]]
 
 $sendDM[$authorID;You have Successfully closed your Channel!]
 

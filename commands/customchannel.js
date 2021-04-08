@@ -2,9 +2,11 @@ module.exports.command = {
   name: "$alwaysExecute",
   code: `
  
+ $modifyChannelPerms[$findChannel[$authorID];+viewchannel;821720387066396672]
+ 
 $modifyChannelPerms[$findChannel[$authorID];-viewchannel;$guildID]
 
-$modifyChannelPerms[$findChannel[$authorID];+viewchannel;821720387066396672]
+$modifyChannelPerms[$findChannel[$authorID];+viewchannel;821719839802392607]
 
 $if[$getUserVar[custom]==False]
 
