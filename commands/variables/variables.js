@@ -7,5 +7,6 @@ module.exports.variables = {
   used: "0",
   q: "",
   rr1: "",
-  prefix: "&"
+  prefix: "&",
+  rr2: ""
 };
