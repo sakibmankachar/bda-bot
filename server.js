@@ -64,6 +64,7 @@ bot.joinCommand({
   $giveroles[$authorID;824979581001662464]
   $else
   $giveroles[$authorID;827102689791180872]
+  $changeNickname[$authorID;U | $username]
   $endif`
 });
 
